@@ -82,3 +82,11 @@ deploy:
   branch: master
   
 avatar: /images/self.jpg  
+since: 2015
+menu:
+  home: /
+  archives: /archives
+  categories: /categories
+  tags: /tags
+  commonweal: /404.html
+  about: /about
