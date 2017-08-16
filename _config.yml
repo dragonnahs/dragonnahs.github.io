@@ -80,3 +80,5 @@ deploy:
   type: git
   repo: git@github.com:dragonnahs/dragonnahs.github.io.git
   branch: master
+  
+avatar: /images/self.jpg  
