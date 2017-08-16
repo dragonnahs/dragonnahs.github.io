@@ -8,7 +8,7 @@ subtitle: 学习的点滴
 description:
 author: 包子
 language: zh-Hans
-timezone: 2015.08-2017.08
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -81,7 +81,7 @@ deploy:
   repo: git@github.com:dragonnahs/dragonnahs.github.io.git
   branch: master
   
-avatar: /images/self.jpg  
+avatar: /images/me.jpg  
 since: 2015
 menu:
   home: /
