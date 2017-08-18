@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: http://imgsrc.baidu.com/imgad/pic/item/267f9e2f07082838b5168c32b299a9014c08f1f9.jpg
+favicon: http://thumbnail0.baidupcs.com/thumbnail/f042a5ead53c9f96a1cd5019f12c6d68?fid=522729469-250528-804865401963163&time=1502928000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-8z6g5p3wu%2F1Gw3BGaN5KybL9lxg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5296088547608361516&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -116,7 +116,7 @@ social_icons:
   StackOverflow: stack-overflow
   Weibo: weibo
 
-social: 
+social:
   github: https://github.com/dragonnahs
   StackOverflow: https://segmentfault.com/u/1020948064
 
@@ -327,7 +327,7 @@ baidu_analytics: 5c436434809f3c61541b6600291830ca
 #duoshuo_shortname:
 
 # Disqus
-disqus: 
+disqus:
   enable: true
   shortname: baozi
   count: true
