@@ -1,5 +1,5 @@
 ---
-title: git的使用笔记
+title: vue-mongodb-node的使用笔记
 date: 2017-06-11 19:09:04
 tags: [node,vue,mongodb]
 categories: 学习
