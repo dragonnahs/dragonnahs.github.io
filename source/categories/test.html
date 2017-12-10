@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  </head>
+  <body>
+    <button type="btn" class="aa" id="btn">aa</button>
+  </body>
+  <script>
+    // var a = { zhihu:0 };
+
+    // Object.defineProperty(a, 'zhihu', {
+    //   get: function() {
+    //     console.log('get：' + zhihu);
+    //     return zhihu;
+    //   },
+    //   set: function(value) {
+    //     zhihu = value;
+    //     console.log('set:' + zhihu);
+    //   }
+    // });
+
+    // a.zhihu = 2; // set:2
+    // console.log(a.zhihu); // get：2
+    document.getElementById('btn').onclick = function(){
+      // a.zhihu = 5
+      o.p = 2
+      console.log(Object.defineProperty.getters)
+    }
+    var o = {p: 1}
+    o.watch('p', function(id, oldValue, newValue){
+        alert(o.p)
+        return newValue
+    })
+
+  </script>
+</html>
