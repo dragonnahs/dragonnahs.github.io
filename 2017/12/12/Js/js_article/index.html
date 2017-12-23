@@ -121,18 +121,18 @@
 
 
 
-<meta name="description" content="现在网上的方案都是生成一个新的dist目录，里面包含了要发布的html,js,css等文件。但是在实际的公司的项目中，会有情况不能生成新的HTML进行发布，需要在原来的HTML文件上进行js ,css版本的替换. 这里分享下我在实际项目中通过改动插件然后在原目录结构下进行版本的控制方案">
+<meta name="description" content="平时遇到的一些算法和封装的一些函数，总结出来方便自己以后阅读整理。">
 <meta name="keywords" content="js,封装,代码片段,算法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="一些算法和封装的代码">
-<meta property="og:url" content="http://yoursite.com/2017/12/12/Js/gulp_bug/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/12/12/Js/js_article/index.html">
 <meta property="og:site_name" content="包子的个人博客">
-<meta property="og:description" content="现在网上的方案都是生成一个新的dist目录，里面包含了要发布的html,js,css等文件。但是在实际的公司的项目中，会有情况不能生成新的HTML进行发布，需要在原来的HTML文件上进行js ,css版本的替换. 这里分享下我在实际项目中通过改动插件然后在原目录结构下进行版本的控制方案">
+<meta property="og:description" content="平时遇到的一些算法和封装的一些函数，总结出来方便自己以后阅读整理。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-23T02:18:54.244Z">
+<meta property="og:updated_time" content="2017-12-23T07:18:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一些算法和封装的代码">
-<meta name="twitter:description" content="现在网上的方案都是生成一个新的dist目录，里面包含了要发布的html,js,css等文件。但是在实际的公司的项目中，会有情况不能生成新的HTML进行发布，需要在原来的HTML文件上进行js ,css版本的替换. 这里分享下我在实际项目中通过改动插件然后在原目录结构下进行版本的控制方案">
+<meta name="twitter:description" content="平时遇到的一些算法和封装的一些函数，总结出来方便自己以后阅读整理。">
 
 
 
@@ -161,7 +161,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/12/12/Js/gulp_bug/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/12/12/Js/js_article/"/>
 
 
 
@@ -304,7 +304,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/12/Js/gulp_bug/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/12/Js/js_article/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="包子">
@@ -374,9 +374,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/12/12/Js/gulp_bug/#comments" itemprop="discussionUrl">
+                <a href="/2017/12/12/Js/js_article/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/12/12/Js/gulp_bug/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2017/12/12/Js/js_article/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -384,7 +384,7 @@
 
           
           
-             <span id="/2017/12/12/Js/gulp_bug/" class="leancloud_visitors" data-flag-title="一些算法和封装的代码">
+             <span id="/2017/12/12/Js/js_article/" class="leancloud_visitors" data-flag-title="一些算法和封装的代码">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -415,7 +415,7 @@
       
 
       
-        <p>现在网上的方案都是生成一个新的dist目录，里面包含了要发布的html,js,css等文件。但是在实际的公司的项目中，会有情况不能生成新的HTML进行发布，需要在原来的HTML文件上进行js ,css版本的替换. 这里分享下我在实际项目中通过改动插件然后在原目录结构下进行版本的控制方案<br><a id="more"></a></p>
+        <p>平时遇到的一些算法和封装的一些函数，总结出来方便自己以后阅读整理。<br><a id="more"></a></p>
 <h3 id="一些算法和封装的代码"><a href="#一些算法和封装的代码" class="headerlink" title="一些算法和封装的代码"></a>一些算法和封装的代码</h3><ol>
 <li>字符串中各个字符串出现的次数<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var arr = &apos;abcdaabc&apos;;</span><br><span class="line"></span><br><span class="line">var info = arr</span><br><span class="line">    .split(&apos;&apos;)</span><br><span class="line">    .reduce((p, k) =&gt; (p[k]++ || (p[k] = 1), p), &#123;&#125;);</span><br><span class="line"></span><br><span class="line">console.log(info); //&#123; a: 3, b: 2, c: 2, d: 1 &#125;</span><br></pre></td></tr></table></figure>
 </li>
@@ -872,8 +872,8 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://yoursite.com/2017/12/12/Js/gulp_bug/';
-          this.page.identifier = '2017/12/12/Js/gulp_bug/';
+          this.page.url = 'http://yoursite.com/2017/12/12/Js/js_article/';
+          this.page.identifier = '2017/12/12/Js/js_article/';
           this.page.title = '一些算法和封装的代码';
         };
         var d = document, s = d.createElement('script');
