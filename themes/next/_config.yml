@@ -115,10 +115,12 @@ social_icons:
   Instagram: instagram
   StackOverflow: stack-overflow
   Weibo: weibo
+  掘金: spinner
 
 social:
   github: https://github.com/dragonnahs
   StackOverflow: https://segmentfault.com/u/1020948064
+  掘金: https://juejin.im/user/591e2a7bda2f60005d291262
 
 # Blog rolls
 #links_title: Links
@@ -207,8 +209,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   totalcount: false
   separated_meta: true
 
@@ -373,7 +375,7 @@ baidushare: true
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-#jiathis:
+jiathis: true
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
@@ -690,3 +692,10 @@ images: images
 
 # Theme version
 version: 5.1.2
+
+# 文章末尾添加“本文结束”标记
+post_end_tag:
+  enabled: true
+
+# Fireworks点击爆炸效果
+fireworks: false

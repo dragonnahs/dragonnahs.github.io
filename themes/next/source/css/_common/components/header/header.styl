@@ -1,6 +1,16 @@
 .header { background: $head-bg; }
 
-.header-inner { position: relative; }
+.header-inner { position: relative;
+    animation: left 1s ease;
+ }
+ @keyframes left{
+     0%{
+         left: -50%;
+     }
+     100%{
+         left: 0%;
+     }
+ }
 
 
 @import "headerband";

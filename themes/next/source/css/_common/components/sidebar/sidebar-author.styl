@@ -5,8 +5,27 @@
   max-width: $site-author-image-width;
   height: $site-author-image-height;
   border: $site-author-image-border-width solid $site-author-image-border-color;
+  /* 头像圆形 */
+  border-radius: 50% 50%;
+  cursor: pointer;
+  box-shadow: inset 0 -1px 0 #333sf;
+  transition: all ease 1s;
+  transform: rotate(0deg);
+  //animation: circle 5s infinite linear;
+}
+@keyframes circle{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-360deg);
+  }
 }
 
+.site-author-image:hover{
+  //animation-play-state:paused;
+  transform: rotate(-360deg);
+}
 .site-author-name {
   margin: $site-author-name-margin;
   text-align: $site-author-name-align;
