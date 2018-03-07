@@ -105,7 +105,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="vue,node,爬虫,记录," />
 
 
 
@@ -121,13 +121,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="包子的个人博客">
-<meta property="og:url" content="http://yoursite.com/tags/react/index.html">
+<meta name="description" content="一直想把以前所学的相关知识进行总结归纳，方便以后查看复习，正好最近最近抽时间研究点东西，打算是做前后台的，对后台这块不熟悉，本来是打算用node加mongodb实现，数据自己弄的不是很清楚，就干脆爬下自己的博客，主要是研究下前后台一起结合着来做的整个流程。">
+<meta name="keywords" content="vue,node,爬虫,记录">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vue-node学习笔记">
+<meta property="og:url" content="http://yoursite.com/2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/index.html">
 <meta property="og:site_name" content="包子的个人博客">
+<meta property="og:description" content="一直想把以前所学的相关知识进行总结归纳，方便以后查看复习，正好最近最近抽时间研究点东西，打算是做前后台的，对后台这块不熟悉，本来是打算用node加mongodb实现，数据自己弄的不是很清楚，就干脆爬下自己的博客，主要是研究下前后台一起结合着来做的整个流程。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-03-07T03:56:44.446Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="包子的个人博客">
+<meta name="twitter:title" content="vue-node学习笔记">
+<meta name="twitter:description" content="一直想把以前所学的相关知识进行总结归纳，方便以后查看复习，正好最近最近抽时间研究点东西，打算是做前后台的，对后台这块不熟悉，本来是打算用node加mongodb实现，数据自己弄的不是很清楚，就干脆爬下自己的博客，主要是研究下前后台一起结合着来做的整个流程。">
 
 
 
@@ -156,13 +161,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/react/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/"/>
 
 
 
 
 
-  <title>标签: react | 包子的个人博客</title>
+  <title>vue-node学习笔记 | 包子的个人博客</title>
   
 
 
@@ -191,7 +196,7 @@
     
   
 
-  <div class="container sidebar-position-left  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
     <a href="https://github.com/dragonnahs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
@@ -286,54 +291,288 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>react<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="包子">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/me.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="包子的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017/12/29/react/react入门学习/" itemprop="url">
-              
-                <span itemprop="name">react入门学习</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">vue-node学习笔记</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-12-29T17:59:02+08:00"
-              content="2017-12-29" >
-          12-29
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-02T10:02:33+08:00">
+                2018-03-02
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/" class="leancloud_visitors" data-flag-title="vue-node学习笔记">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  393
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>一直想把以前所学的相关知识进行总结归纳，方便以后查看复习，正好最近最近抽时间研究点东西，打算是做前后台的，对后台这块不熟悉，本来是打算用node加mongodb实现，数据自己弄的不是很清楚，就干脆爬下自己的博客，主要是研究下前后台一起结合着来做的整个流程。<br><a id="more"></a></p>
+<h1 id="vue-backend-system"><a href="#vue-backend-system" class="headerlink" title="vue-backend-system"></a>vue-backend-system</h1><blockquote>
+<p>一直想把以前所学的相关知识进行总结归纳，方便以后查看复习，正好最近最近抽时间研究点东西，打算是做前后台的，对后台这块不熟悉，本来是打算用node加mongodb实现，数据自己弄的不是很清楚，就干脆爬下自己的博客，主要是研究下前后台一起结合着来做的整个流程。</p>
+</blockquote>
+<p><a href="https://github.com/dragonnahs/vue_node_study_record" target="_blank" rel="noopener">github项目地址</a></p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="下载项目"><a href="#下载项目" class="headerlink" title="下载项目"></a>下载项目</h3><blockquote>
+<p>git clone 或者直接下载文件</p>
+</blockquote>
+<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><blockquote>
+<p>cd到项目根目录下运行 npm install安装依赖<br>使用淘宝镜像 cnpm install(需要先安装淘宝淘宝镜像，运行<code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code>)</p>
+</blockquote>
+<h3 id="运行vue项目"><a href="#运行vue项目" class="headerlink" title="运行vue项目"></a>运行vue项目</h3><blockquote>
+<p>npm run dev(开发环境运行，访问<code>localhost:8081/</code>)<br>npm run server(运行后台服务，后台端口是<code>8888</code>)</p>
+</blockquote>
+<h2 id="记录笔记"><a href="#记录笔记" class="headerlink" title="记录笔记"></a>记录笔记</h2><blockquote>
+<p>简单总结下自己遇到的问题，学习到的东西，主要是根据这个项目进行简单的总结，一个是vue相关的内容，另一个是node相关的知识。</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/dragonnahs/vue_node_study_record/blob/master/Read/Vue%E6%80%BB%E7%BB%93.md" target="_blank" rel="noopener">Vue相关总结</a></li>
+<li><a href="https://github.com/dragonnahs/vue_node_study_record/blob/master/Read/Node%E6%80%BB%E7%BB%93.md" target="_blank" rel="noopener">Node相关总结</a></li>
+</ul>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">
+            -------------本文结束
+            <i class="fa fa-paw"></i>
+            感谢您的阅读-------------
+        </div>
+    
+</div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/vue/" rel="tag"><i class='fa fa-tag'></i> vue</a>
+          
+            <a href="/tags/node/" rel="tag"><i class='fa fa-tag'></i> node</a>
+          
+            <a href="/tags/爬虫/" rel="tag"><i class='fa fa-tag'></i> 爬虫</a>
+          
+            <a href="/tags/记录/" rel="tag"><i class='fa fa-tag'></i> 记录</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/12/29/react/react入门学习/" rel="next" title="react入门学习">
+                <i class="fa fa-chevron-left"></i> react入门学习
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_fav">收藏夹</a>
+<a class="jiathis_button_copy">复制网址</a>
+<a class="jiathis_button_email">邮件</a>
+<a class="jiathis_button_weixin">微信</a>
+<a class="jiathis_button_qzone">QQ空间</a>
+<a class="jiathis_button_tqq">腾讯微薄</a>
+<a class="jiathis_button_douban">豆瓣</a>
+<a class="jiathis_button_share">一键分享</a>
+
+<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+  data_track_clickback:true,
+  summary:"",
+  shortUrl:false,
+  hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+      
+    </div>
+  </div>
 
 
           </div>
@@ -341,6 +580,17 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -361,8 +611,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/me.jpg"
@@ -459,6 +718,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#vue-backend-system"><span class="nav-number">1.</span> <span class="nav-text">vue-backend-system</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#步骤"><span class="nav-number">1.1.</span> <span class="nav-text">步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载项目"><span class="nav-number">1.1.1.</span> <span class="nav-text">下载项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装依赖"><span class="nav-number">1.1.2.</span> <span class="nav-text">安装依赖</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运行vue项目"><span class="nav-number">1.1.3.</span> <span class="nav-text">运行vue项目</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#记录笔记"><span class="nav-number">1.2.</span> <span class="nav-text">记录笔记</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -606,10 +881,10 @@
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
@@ -627,6 +902,18 @@
       <script id="dsq-count-scr" src="https://baozi.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/';
+          this.page.identifier = '2018/03/02/Vue/【vue+axios】一个项目学会前端实现登录拦截.1/';
+          this.page.title = 'vue-node学习笔记';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://baozi.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
